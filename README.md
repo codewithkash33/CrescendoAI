@@ -1,38 +1,125 @@
-Link: https://crescendoai.vercel.app/
-Devpost link: https://devpost.com/software/crescendo-yt3wc1 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎵 Crescendo AI — AI-Powered Music Performance Analyzer
 
-## Getting Started
+> **Built at the [UC Berkeley AI Hackathon 2025](https://uc-berkeley-ai-hackathon-2025.devpost.com/) | June 21–22, 2025**
 
-First, run the development server:
+🔗 **Live App:** [crescendoai.vercel.app](https://crescendoai.vercel.app/)  
+📄 **Devpost:** [devpost.com/software/crescendo-yt3wc1](https://devpost.com/software/crescendo-yt3wc1)  
+📂 **Original Repo:** [github.com/Victoria-DR/uc-berkeley-ai-hackathon-2025](https://github.com/Victoria-DR/uc-berkeley-ai-hackathon-2025)
+
+---
+
+## 🎯 What is Crescendo AI?
+
+Crescendo AI is an intelligent music performance analysis tool that helps musicians improve by providing real-time, AI-driven feedback on their playing. Whether you're practicing piano, guitar, or any other instrument — Crescendo AI listens, analyzes, and tells you exactly where you went right and where you can improve.
+
+### How It Works
+
+1. **🎤 Live Listening** — Play your instrument live and Crescendo AI captures your performance in real-time
+2. **📁 Upload a Recording** — Already have a recording? Upload it directly for analysis
+3. **🤖 AI Analysis** — Google Gemini processes your performance and evaluates technique, timing, note accuracy, and more
+4. **📊 Detailed Feedback** — Get a breakdown of what you played well and specific areas where mistakes were made, with suggestions for improvement
+
+---
+
+## 🖼️ Screenshots
+
+<!-- 
+  👇 REPLACE THESE WITH YOUR ACTUAL SCREENSHOTS
+  See instructions below on how to add images 
+-->
+
+| Home Page | Live Analysis | Feedback Report |
+|-----------|--------------|-----------------|
+| ![Home](./screenshots/home.png) | ![Analysis](./screenshots/analysis.png) | ![Feedback](./screenshots/feedback.png) |
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Frontend** | Next.js, React, JavaScript, CSS |
+| **AI/ML** | Google Gemini API |
+| **Audio Processing** | Web Audio API |
+| **Deployment** | Vercel |
+
+---
+
+## 👥 Team
+
+Built in 24 hours by a team of 4 at UC Berkeley:
+
+| Name | Role |
+|------|------|
+| **Aakash** | AI/ML Integration & Full-Stack Development |
+| Victoria | Frontend Development |
+| Janet Meng | Development |
+| Sujal | Development |
+
+---
+
+## 💡 My Contributions
+
+As the **AI/ML integration lead** and a **full-stack contributor**, I was responsible for:
+
+- **Gemini API Integration** — Architected and implemented the connection between the audio input pipeline and Google Gemini for intelligent music analysis
+- **Audio Processing Pipeline** — Worked on capturing and processing live audio and uploaded recordings for AI consumption
+- **Performance Feedback Engine** — Developed the logic that translates Gemini's analysis into actionable, musician-friendly feedback
+- **Full-Stack Development** — Contributed across the entire stack, from UI components to backend API routes
+
+<!-- 
+  💡 TIP: Edit the above bullet points to be more specific about what YOU actually built.
+  The more specific you are, the more impressive it looks to recruiters.
+  Example: "Built the real-time audio streaming module using the Web Audio API"
+-->
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+  
+- A Google Gemini API key
+
+### Installation
 
 ```bash
+# Clone this repository
+git clone https://github.com/YOUR_USERNAME/crescendo-ai.git
+cd crescendo-ai
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env.local
+# Add your GEMINI_API_KEY in .env.local
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏆 Hackathon Context
 
-## Learn More
+- **Event:** UC Berkeley AI Hackathon 2025 (3rd Edition)
+- **Organized by:** Cal Hacks
+- **Sponsors:** Anthropic, Google, Fetch AI, and more
+- **Duration:** 24 hours (June 21–22, 2025)
+- **Location:** Martin Luther King Jr. Building, UC Berkeley
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project was built during a hackathon and is open for educational and portfolio purposes.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  Made with ☕ and 🎵 at UC Berkeley AI Hackathon 2025
+</p>
