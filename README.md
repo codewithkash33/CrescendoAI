@@ -21,19 +21,7 @@ Crescendo AI is an intelligent music performance analysis tool that helps musici
 
 ---
 
-## 🖼️ Screenshots
 
-<!-- 
-  👇 REPLACE THESE WITH YOUR ACTUAL SCREENSHOTS
-  See instructions below on how to add images 
--->
-
-| Home Page |
-|-----------|--------------|-----------------|
-| ![Home](<img width="1439" height="855" alt="Screenshot 2025-06-25 at 11 23 44 AM" src="https://github.com/user-attachments/assets/ac898680-56ab-4924-ac7f-b8f2897bb0d4" />
-) 
-
----
 
 ## 🛠️ Tech Stack
 
